@@ -7,7 +7,7 @@ In case you want to create your Timetable using this repo, proceed as follows:
 
 1. Clone the repo into your machine
 
-2. Start the app by running the command `yarn start`
+2. Install dependencies with `yarn install`, then start the app with `yarn start`.
 
 3. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
@@ -19,4 +19,6 @@ In case you want to create your Timetable using this repo, proceed as follows:
 
 7. Save the changes and view them in the browser.
 
-8. For deployment you can use [Render](https://render.com/) or [Netlify](https://www.netlify.com/) for continuous deployment.
+8. Create a production build with `yarn build`. For deployment you can use
+   [Render](https://render.com/) or [Netlify](https://www.netlify.com/) for
+   continuous deployment.
